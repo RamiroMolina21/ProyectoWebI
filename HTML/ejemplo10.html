@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Tag Semanticos</title>
+</head>
+
+<body>
+    <h1>Ejemplo Tag Semanticos</h1>
+
+    <table width="100%" border="1">
+        <tr>
+
+            <td colspan="2">
+
+                <nav>
+                    <a href="#">Tutoriales</a>&emsp;|&emsp;
+                    <a href="#">Front end</a>&emsp;|&emsp;
+                    <a href="#">Back end</a>&emsp;|&emsp;
+                    <a href="#">FrameWorks</a>&emsp;|&emsp;
+                    <a href="#">Librerias</a>&emsp;|&emsp;
+                </nav>
+
+
+
+            </td>
+        </tr>
+        <tr>
+            <td width="60%">
+
+                <section>
+                    <header>Front End</header>
+                    <article>
+                        <h2>Front End</h2>
+                        <table>
+                            <tr>
+                                <td width="40%">
+                                    <img src="../Recursos/imagenes/imagen1.webp" alt="" width="100%">
+                                </td>
+                                <td width="60%">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        Maiores eius deleniti officiis 
+                                        harum ea? Laudantium blanditiis aperiam veritatis ipsum. 
+                                        Beatae, quasi? Eaque impedit, minima ullam at laudantium 
+                                        quis obcaecati facilis.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                    <article></article>
+                    <article></article>
+                </section>
+
+
+            </td>
+            <td width="40%">
+
+                <aside>
+                    <h2>Datos Personales</h2>
+                    <form autocomplete="on">
+
+                        <label for="numero_identificacion">Número de Identificación</label>
+                        <input type="number" id="numero_identificacion" required
+                            placeholder="Número de Identificación"><br><br>
+
+                        <label for="nombres">Nombres</label>
+                        <input type="text" id="nombres" size="30" readonly value="Ramiro Molina"><br><br>
+
+                        <label for="salario">Salario</label>
+                        <input type="number" id="salario" min="0" max="100000000"><br><br>
+                        <label for="browser">Choose your browser from the list:</label>
+                        <input list="browsers" name="browser" id="browser">
+
+                        <datalist id="browsers">
+                            <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist> <br><br>
+
+                        <label for="numero_celular">Numero de Celular</label>
+                        <input type="text" id="numero_celular" pattern="^\+\d{2}-\d{8,}"><br><br>
+
+                        <label for="numero_telefono">Numero de Telefono</label>
+                        <input type="text" id="numero_telefono" pattern="\d{3}\s\d{3}\s\d{4}"><br><br>
+
+
+                        <input type="submit" value="Enviar al servidor">
+
+
+                    </form>
+                </aside>
+            </td>
+        </tr>
+        <tr>
+
+            <td colspan="2">
+
+                <footer>
+                    <figure>
+                        <img src="../Recursos/imagenes/imagen1.webp" alt="" width="500px"> 
+                        <figcaption>Description imagen</figcaption> 
+                    </figure>
+                </footer>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
